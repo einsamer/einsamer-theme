@@ -1,0 +1,158 @@
+@CHARSET "UTF-8";
+*{
+	font-family: fantasy;
+	margin:0;
+	padding:0;
+}
+
+body{
+	
+	background-image: url('../images/background.png');
+}
+
+.primary-menucontainer {
+    margin-left: 200px;
+}
+
+.logo {
+    border-bottom: 1px solid black;
+}
+div .clear{
+	clear: both;
+	
+}
+.mainContainer {
+    width: 1170px;
+    height: 3000px;
+    margin: auto;
+    padding: auto;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.mainContainer .logoText {
+    font-size: 35pt;
+    float: left;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+nav.primary-menu {
+    border-top: 1px solid black;
+    margin: auto;
+    width: auto;
+    height: 30px;
+
+}
+
+.primary-menu li {
+    float: left;
+    list-style: none;
+    
+    background-color: #23282d;
+}
+.primary-menu li a{
+	text-decoration: none;
+	display:block;
+	color: white;
+	padding:10px 25px;
+	font-family: fantasy;
+}
+.primary-menu a:hover {
+	color:#23282d;
+	background-color: #e0e0e0;
+}
+
+
+
+.postContainer {
+	padding: 1%;
+	float:left;
+	width: 40%;
+	margin-right: 5%;
+	margin-bottom: 1%;
+	text-align: center;
+	/* border-top-left-radius:10%; */
+}
+.postContainer:hover {
+	opacity:0.75;
+}
+
+.postContainer img{
+	width: 100%;
+	height:200px;
+	margin-right:5%;
+}
+.postContainer p,a{
+	font-family: "New Courier";
+}
+
+.contentContainer {
+	padding: 50px 0;
+	position: relative;
+}
+
+.mainContentLeft {
+	float:left;
+	text-align:center;
+	width:900px;
+}
+
+.postFullContent{
+	padding:50px 0;
+	text-align: center;
+	
+}
+
+.postFullContent h3 {
+    text-transform: uppercase;
+    font-family: "Time New Roman";
+    margin-bottom: 20px;
+}
+
+.postFullContent img{
+	width:500px;
+	height:350px;
+  	margin-bottom: 10px;
+
+}
+
+.sidebarContainer {
+	float: right;
+	overflow: hidden;
+	height: 100%;
+	position: fixed;
+	top:30px;
+	right: 20px;
+	background-color: #23282d;
+	color:white;
+	padding:0 10px;
+}
+
+
+.sidebarContainer li{
+	/* padding: 10px; */
+	
+	margin-bottom: 20px;
+	list-style: none;
+	border-top: black 1px solid;
+	max-width: 200px;
+}
+.sidebarContainer li a{
+	color: white;
+	text-decoration: none;
+	margin-top: 50px;
+}
+
+.widget {
+	padding-top:10px;
+	
+}
+ 
+ 
+ .footer{
+ 	border-top: 1px solid #dfdfdf;
+ 	padding-top: 30px;
+ }

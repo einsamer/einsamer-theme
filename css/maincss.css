@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+.customMenu>li {
+    float: right;
+}
+
+.customMenu>li a:hover {
+    background-color: rgb(97, 209, 242);
+    color: whitesmoke;
+}
+
+.col-xs-8.slidebar {
+    margin-top: 10px;
+}
+
+div.divine-top-main {
+	margin:10px 0;
+	height: 15px;
+	background: url("hr1.gif") no-repeat center;
+}
+
+
+.post-container img, iframe {
+	width:0;
+	height:0;
+}
+
+.post-container {
+    max-width: inherit;
+    height: 400px;
+    margin-top: 10px;
+}
